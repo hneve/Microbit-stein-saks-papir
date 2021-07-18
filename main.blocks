@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="x`Wt0!3^9G!-H0zK)Daa">SSP123</variable></variables><block type="device_gesture_event" id="7#/(Tq34}|f3rMr#QXDm" x="-206" y="-344"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="Jx4f}ZB.W-niZq*yYK,s"><field name="VAR" id="x`Wt0!3^9G!-H0zK)Daa">SSP123</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="~mamB[^Pp?-(h^JaT#`z"><value name="min"><shadow type="math_number" id="N^a~STs9u~1GGnF+A5/-"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="Y9xHICHv9j5XGq|F(m^P"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="3$k?-Psg/YN}GEnis0Y2"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="0QFSU{GH-8L/99}M22{F"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="@db/$aM4/Em[n/lB05S$"><field name="VAR" id="x`Wt0!3^9G!-H0zK)Daa">SSP123</field></block></value><value name="B"><shadow type="math_number" id="|J?APo@Q7%(bBcpF,3Al"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="W|}`XfIHy`Ud[P}.;@*e"><field name="LEDS">`
+        . # # . . 
+        . # # # # 
+        # # # # # 
+        # # # # . 
+        . . # # .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id=",Mjdz0eaS)Q:zu`5;eFn"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="d8(HgU@?,_b}|fl*=EH|"><field name="VAR" id="x`Wt0!3^9G!-H0zK)Daa">SSP123</field></block></value><value name="B"><shadow type="math_number" id="E#G%V~aIZ9=N7RS`J8kk"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="[YT|@Q$5bh(w7TX([]+h"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="b[_rL5lX^$kin7sW)SvJ"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
